@@ -1,0 +1,176 @@
+/*head*/
+
+body{
+    font-size:100px;
+    background: #f8f8f8;
+}
+header {
+    height:1.10rem;
+    background:#252525;
+    padding-left:.16rem;
+    padding-right:.23rem;
+    box-sizing: border-box;
+}
+.logo{
+    float:left;
+    margin-top:.23rem;
+}
+.logo a{
+    width:2.10rem;
+    height:.62rem;
+    background:url("../images/logo.png") center center no-repeat;
+    display:block;
+    background-size:cover;
+}
+.icon{
+    float:right;
+    width:.36rem;
+    height:.32rem;
+    background:url("../images/line.png") center center no-repeat;
+    background-size:cover;
+    margin-top:.4rem;
+}
+
+.allClass h4{
+    color:#777777;
+    height:.85rem;
+    line-height:.85rem;
+    font-weight:300;
+
+}
+.lists{
+    font-size:.28rem;
+    text-align:center;
+    margin-bottom:1.5rem;
+}
+.lists li p{
+    color:#ed3a3a;
+}
+.lists li{
+    box-shadow: 0 3px 50px rgba(0,0,0,.3);
+    margin-bottom:.42rem;
+    border-radius:0.1rem;
+}
+.bottom{
+    padding-bottom:.35rem;
+    background:#fff;
+}
+/*banner*/
+.swiper-container {
+    width: 100%;
+    height: 3.41rem;
+}
+.swiper-container .swiper-slide{
+    background-size:cover;
+}
+
+.allClass h3{
+    height:1rem;
+    line-height:1rem;
+    background:url("../images/book.png") .2rem center no-repeat;
+    background-size:.29rem .35rem;
+    text-indent:.62rem;
+    font-size:.26rem;
+    color:#4C4B4B;
+}
+/*footer*/
+.footer{
+    width:100%;
+    height:1.07rem;
+    background:green;
+    /*position:fixed;*/
+    /*bottom:0;*/
+    /*left:0;*/
+}
+.allClass ul{
+    padding:0 .2rem;
+    box-sizing: border-box;
+}
+.list a{
+    display:block;
+}
+.cover{
+
+    height:2.8rem;
+    background:url("../images/vue.png") center center no-repeat;
+    background-size:cover;
+}
+
+.foot{
+    width:100%;
+    height:1.08rem;
+    background:#ffffff;
+    position:fixed;
+    bottom:0;
+    left:0;
+    border-top:1px solid #f8f8f8;
+}
+.foot li{
+    width:33.33%;
+    height:1.08rem;
+    float:left;
+
+}
+.foot li a{
+    display:block;
+    font-size:.16px;
+    height:1.08rem;
+}
+.foot .iconItem{
+    margin:0 auto;
+
+}
+.blue{
+    color:#188ae4;
+}
+.foot{
+  text-align:center;
+
+}
+.foot a{
+    color:#ababab;
+}
+.foot li.current a{
+    color:#188ae4;
+}
+.foot li:nth-child(1).current .iconItem{
+    background-image:url("../images/index2.png");
+}
+.foot li:nth-child(2).current .iconItem{
+    background-image:url("../images/class2.png");
+}
+.foot li:nth-child(3).current .iconItem{
+    background-image:url("../images/center.png");
+}
+/*.foot li .iconItem{*/
+    /*background:url("../images/index2.png") center center no-repeat;*/
+    /*background-size:cover;*/
+/*}*/
+.foot li:nth-child(1) .iconItem{
+    width:0.46rem;
+    height:0.33rem;
+    background:url("../images/index2.png") center center no-repeat;
+    background-size:cover;
+    margin-top:.2rem;
+    margin-bottom:.15rem;
+
+}
+
+.foot li:nth-child(2) .iconItem{
+    height:.39rem;
+    width:.4rem;
+    background: url("../images/class.png") center center no-repeat ;
+    background-size:cover;
+    margin-top:.15rem;
+    margin-bottom:.1rem;
+}
+
+
+.foot li:nth-child(3) .iconItem{
+    height:.36rem;
+    width:.37rem;
+    background: url("../images/center.png") center center no-repeat ;
+    background-size:cover;
+    margin-top:.17rem;
+    margin-bottom:.12rem;
+}
